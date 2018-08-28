@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/groupWeex"
+        android:visible="true">
+   <!--     <item
+            android:id="@+id/actionHistory"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="历史记录"
+            app:showAsAction="ifRoom" />-->
+        <item
+            android:id="@+id/actionScan"
+            android:icon="@drawable/ic_action_scan_black"
+            android:title="扫描"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/actionRefresh"
+            android:icon="@drawable/ic_action_refresh_black"
+            android:title="刷新"
+            app:showAsAction="ifRoom" />
+
+    </group>
+</menu>
